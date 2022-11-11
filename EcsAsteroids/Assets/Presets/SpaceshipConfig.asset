@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d6e194a1b82303439d3e89f059b0f6b, type: 3}
+  m_Name: SpaceshipConfig
+  m_EditorClassIdentifier: 
+  spaceshipPrefab: {fileID: 2503297519054334998, guid: a4700f26bf0ddfb468b06d8a9880768d, type: 3}
+  spawnPos: {x: 0, y: 0}
+  maxSpeed: 0.025
+  speed: 0.0185
+  timeToStop: 1.4
+  rotDegPerSecond: 180
+  spawnBulletsFwdOffset: 0.5
+  bulletWpnDelay: 0.3
+  laserWpnDelay: 1
+  laserWpnMaxCharges: 8
+  laserWpnMinRechargeInterval: 10
